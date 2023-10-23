@@ -1,53 +1,70 @@
 @startuml
 left to right direction
 
-package @КомандаПУФ {
+frame КомандаПУФ {
 
     :Тех поддержка: as Support
     :Администратор: as Admin
     Admin <|-- Support
 }
 
-package @Тестирование {
-    :QA-водитель:
-    :водитель:
+frame Тестирование {
+    :Водитель:
+    :Автомобиль: as Auto
 }
 
-package @ТехОтдел {
-    :Ответственный за флот:
-    :Главный инженер:
-    :Техник:
+frame ТехОтдел {
+    :Ответственный за флот: as FleetManager
+    :Главный инженер: as Engineer
+    :Техник: as Technician
 }
 
-package @Разработчики {
+frame Разработчики {
     :ML-разработчик:
 }
 
-package @ПУФ {
+frame ПУФ {
+    (Управление правами) as (RM)
+    (Назначение прав) as (R)
+    (Авторизация) as (Auth)
 
-    package @Доступы {
-        (Управление правами) as (RM)
-        (Назначение прав) as (R)
-        (R) <|-- (RM)
+    (R) .> (Auth) : include
+    (ServiceManagement) .> (Auth) : include
+    (CarManagement) .> (Auth) : include
 
-        Admin --> (RM)
-        Admin --> (Создание типов броней)
-        Support --> (R)
+    Admin -down-> (RM)
+    Support -down-> (R)
+    (R) <|-- (RM)
+
+    frame Бронирования {
+        (Бронирование машин для проверки написанных алгоритмов) as (Reservation)
+        (Отметка занятых машин и водителей) as (Calendaring)
+
+        :ML-разработчик: --> (Reservation)
+        (Reservation) -> (Calendaring)
+
+        (Reservation) ..> (Auth) : include
     }
 
-    package @Мастерская {
-        :Ответственный за флот: --> (Распределение компонентов флота:\n автомобилей, ремонт-постов...)
-        :Главный инженер: --> (Назначение и создание задач)
-        :Техник: --> (Изменение статуса текущей задачи,\n написание комментариев в ней)
-    }
+    frame Автопарк {
+        (Создание расписания машин и водителей) as (CarManagement)
+        (Управление автомобилем) as (Riding)
+        (Назначение и создание задач\n на ремонт и поддержку автомобиля) as (ServiceManagement)
+        (Изменение статуса текущей задачи,\n написание комментариев в ней) as (ServiceWork)
+        (Ведение католога задач) as (Tasks)
 
-    package @РазделБронирования {
-        (Тестирование работы автомобиля,\n проверка работы интерфейса внутри машины) as (FullTesting)
-        (FullTesting) <|-- (Занесение данных тестирования)
+        :Engineer: --> (ServiceManagement)
+        (ServiceManagement) --> (Tasks)
+        :Technician: --> (ServiceWork)
+        (ServiceWork) -> (Tasks)
+        (Tasks) -> (CarManagement)
 
-        :ML-разработчик: --> (Бронирование машин для проверки написанных алгоритмов)
-        :QA-водитель: --> (FullTesting)
-        :водитель: --> (Занесение данных тестирования)
+        :FleetManager: --> (CarManagement)
+        :Водитель: --> (Riding)
+        (Riding) --- (Calendaring)
+        :Auto: --> (Отправка данных тестирования на сервер)
+        :Auto: --- (Riding)
+        (CarManagement) --- (Calendaring)
     }
 
 }
