@@ -1,0 +1,1235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   contentStyleType="text/css"
+   height="780"
+   preserveAspectRatio="none"
+   version="1.1"
+   viewBox="0 0 2250 780"
+   width="2250"
+   zoomAndPan="magnify"
+   id="svg49"
+   sodipodi:docname="UseCaseUsers--corrected.svg"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   inkscape:export-filename="UseCaseUsers--corrected.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview49"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="1033.4366"
+     inkscape:cy="339.0577"
+     inkscape:window-width="1792"
+     inkscape:window-height="1120"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g49"
+     inkscape:export-bgcolor="#ffffffff" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="marker64"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path64" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker61"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path61" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker60"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path60" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker59"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path59" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker58"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path58" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path57" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker64-1"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path64-8" />
+    </marker>
+  </defs>
+  <g
+     id="g49"
+     transform="matrix(0.99958493,0,0,1.0000003,0.00280034,-1.0508824e-4)">
+    <!--cluster ??????????-->
+    <g
+       id="cluster_КомандаПУФ"
+       transform="matrix(0.80428078,0,0,1.0008096,799.59819,-216.40795)">
+      <rect
+         fill="none"
+         height="127.01904"
+         rx="2.3944895"
+         ry="2.5003748"
+         style="stroke:#181818;stroke-width:0.978744"
+         width="598.14349"
+         x="1124.226"
+         y="850.99048"
+         id="rect1" />
+      <path
+         d="m 1257.5271,851.02548 v 9.46411 l -12.3783,9.9745 h -120.0696"
+         fill="none"
+         style="stroke:#181818;stroke-width:1.11116"
+         id="path1" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         font-weight="bold"
+         lengthAdjust="spacing"
+         textLength="97"
+         x="1100.86"
+         y="865.53522"
+         id="text1"
+         transform="matrix(1.2774444,0,0,1,-281.17077,0)">КомандаПУФ</text>
+    </g>
+    <!--cluster ????????????-->
+    <g
+       id="cluster_Тестирование">
+      <rect
+         fill="none"
+         height="238"
+         rx="2.5"
+         ry="2.5"
+         style="stroke:#181818;stroke-width:1"
+         width="116"
+         x="47"
+         y="380"
+         id="rect2" />
+      <path
+         d="m 158,380 v 9.4883 l -10,10 H 47"
+         fill="none"
+         style="stroke:#181818;stroke-width:1"
+         id="path2" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         font-weight="bold"
+         lengthAdjust="spacing"
+         textLength="101"
+         x="50"
+         y="394.53519"
+         id="text2">Тестирование</text>
+    </g>
+    <!--cluster ????????-->
+    <g
+       id="cluster_ТехОтдел">
+      <rect
+         fill="none"
+         height="349"
+         rx="2.5"
+         ry="2.5"
+         style="stroke:#181818;stroke-width:1"
+         width="196"
+         x="7"
+         y="7"
+         id="rect3" />
+      <path
+         d="m 89,7 v 9.4883 l -10,10 H 7"
+         fill="none"
+         style="stroke:#181818;stroke-width:1"
+         id="path3" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         font-weight="bold"
+         lengthAdjust="spacing"
+         textLength="72"
+         x="10"
+         y="21.5352"
+         id="text3">ТехОтдел</text>
+    </g>
+    <!--cluster ????????????-->
+    <g
+       id="cluster_Разработчики"
+       transform="translate(17.007059,20.999994)">
+      <rect
+         fill="none"
+         height="127"
+         rx="2.5"
+         ry="2.5"
+         style="stroke:#181818;stroke-width:1"
+         width="148"
+         x="1095.86"
+         y="613"
+         id="rect4" />
+      <path
+         d="m 1205.86,613 v 9.4883 l -10,10 h -100"
+         fill="none"
+         style="stroke:#181818;stroke-width:1"
+         id="path4" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         font-weight="bold"
+         lengthAdjust="spacing"
+         textLength="100"
+         x="1098.86"
+         y="627.53522"
+         id="text4">Разработчики</text>
+    </g>
+    <!--cluster ???-->
+    <g
+       id="cluster_ПУФ">
+      <rect
+         fill="none"
+         height="560.04169"
+         rx="2.295594"
+         ry="2.5001862"
+         style="stroke:#181818;stroke-width:0.958283"
+         width="2001.5469"
+         x="235.97914"
+         y="28.979145"
+         id="rect5" />
+      <path
+         d="m 278,29 v 9.4883 l -10,10 h -32"
+         fill="none"
+         style="stroke:#181818;stroke-width:1"
+         id="path5" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         font-weight="bold"
+         lengthAdjust="spacing"
+         textLength="32"
+         x="239"
+         y="43.535198"
+         id="text5">ПУФ</text>
+    </g>
+    <!--cluster ????????????-->
+    <g
+       id="cluster_Бронирования">
+      <rect
+         fill="none"
+         height="246"
+         rx="2.5"
+         ry="2.5"
+         style="stroke:#181818;stroke-width:1"
+         width="490.57001"
+         x="1406.58"
+         y="281"
+         id="rect6" />
+      <path
+         d="m 1521.58,281 v 9.4883 l -10,10 h -105"
+         fill="none"
+         style="stroke:#181818;stroke-width:1"
+         id="path6" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         font-weight="bold"
+         lengthAdjust="spacing"
+         textLength="105"
+         x="1409.58"
+         y="295.53519"
+         id="text6">Бронирования</text>
+    </g>
+    <!--cluster ????????-->
+    <g
+       id="cluster_Автопарк"
+       transform="matrix(0.98417034,0,0,0.96557015,13.898007,17.020476)">
+      <rect
+         fill="none"
+         height="378"
+         rx="2.5"
+         ry="2.5"
+         style="stroke:#181818;stroke-width:1"
+         width="358.78"
+         x="621.35999"
+         y="187"
+         id="rect7" />
+      <path
+         d="m 699.36,187 v 9.4883 l -10,10 h -68"
+         fill="none"
+         style="stroke:#181818;stroke-width:1"
+         id="path7" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         font-weight="bold"
+         lengthAdjust="spacing"
+         textLength="68"
+         x="624.35999"
+         y="201.5352"
+         id="text7">Автопарк</text>
+    </g>
+    <!--entity Support-->
+    <g
+       id="elem_Support"
+       transform="translate(461.03362,-223.44574)">
+      <circle
+         cx="1651.86"
+         cy="894.26001"
+         fill="#f1f1f1"
+         style="stroke:#181818;stroke-width:0.5"
+         id="ellipse7"
+         r="8" />
+      <path
+         d="m 1651.86,902.26 v 27 m -13,-19 h 26 m -13,19 -13,15 m 13,-15 13,15"
+         fill="none"
+         style="stroke:#181818;stroke-width:0.5"
+         id="path8" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="109"
+         x="1597.36"
+         y="959.29523"
+         id="text8">Тех поддержка</text>
+    </g>
+    <!--entity Admin-->
+    <g
+       id="elem_Admin"
+       transform="translate(709.93521,-223.44574)">
+      <circle
+         cx="1169.86"
+         cy="894.26001"
+         fill="#f1f1f1"
+         style="stroke:#181818;stroke-width:0.5"
+         id="ellipse8"
+         r="8" />
+      <path
+         d="m 1169.86,902.26 v 27 m -13,-19 h 26 m -13,19 -13,15 m 13,-15 13,15"
+         fill="none"
+         style="stroke:#181818;stroke-width:0.5"
+         id="path9" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="112"
+         x="1113.86"
+         y="959.29523"
+         id="text9">Администратор</text>
+    </g>
+    <!--entity ????????-->
+    <g
+       id="elem_Водитель">
+      <circle
+         cx="105"
+         cy="423.26001"
+         fill="#f1f1f1"
+         style="stroke:#181818;stroke-width:0.5"
+         id="ellipse9"
+         r="8" />
+      <path
+         d="m 105,431.26 v 27 m -13,-19 h 26 m -13,19 -13,15 m 13,-15 13,15"
+         fill="none"
+         style="stroke:#181818;stroke-width:0.5"
+         id="path10" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="65"
+         x="72.5"
+         y="488.2952"
+         id="text10">Водитель</text>
+    </g>
+    <!--entity Auto-->
+    <g
+       id="elem_Auto">
+      <circle
+         cx="105"
+         cy="534.26001"
+         fill="#f1f1f1"
+         style="stroke:#181818;stroke-width:0.5"
+         id="ellipse10"
+         r="8" />
+      <path
+         d="m 105,542.26 v 27 m -13,-19 h 26 m -13,19 -13,15 m 13,-15 13,15"
+         fill="none"
+         style="stroke:#181818;stroke-width:0.5"
+         id="path11" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="84"
+         x="63"
+         y="599.29523"
+         id="text11">Автомобиль</text>
+    </g>
+    <!--entity FleetManager-->
+    <g
+       id="elem_FleetManager">
+      <circle
+         cx="105"
+         cy="161.25999"
+         fill="#f1f1f1"
+         style="stroke:#181818;stroke-width:0.5"
+         id="ellipse11"
+         r="8" />
+      <path
+         d="m 105,169.26 v 27 m -13,-19 h 26 m -13,19 -13,15 m 13,-15 13,15"
+         fill="none"
+         style="stroke:#181818;stroke-width:0.5"
+         id="path12" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="164"
+         x="23"
+         y="226.2952"
+         id="text12">Ответственный за флот</text>
+    </g>
+    <!--entity Engineer-->
+    <g
+       id="elem_Engineer">
+      <circle
+         cx="105"
+         cy="50.259998"
+         fill="#f1f1f1"
+         style="stroke:#181818;stroke-width:0.5"
+         id="ellipse12"
+         r="8" />
+      <path
+         d="m 105,58.26 v 27 m -13,-19 h 26 m -13,19 -13,15 m 13,-15 13,15"
+         fill="none"
+         style="stroke:#181818;stroke-width:0.5"
+         id="path13" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="124"
+         x="43"
+         y="115.2952"
+         id="text13">Главный инженер</text>
+    </g>
+    <!--entity Technician-->
+    <g
+       id="elem_Technician">
+      <circle
+         cx="105"
+         cy="272.26001"
+         fill="#f1f1f1"
+         style="stroke:#181818;stroke-width:0.5"
+         id="ellipse13"
+         r="8" />
+      <path
+         d="m 105,280.26 v 27 m -13,-19 h 26 m -13,19 -13,15 m 13,-15 13,15"
+         fill="none"
+         style="stroke:#181818;stroke-width:0.5"
+         id="path14" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="52"
+         x="79"
+         y="337.2952"
+         id="text14">Техник</text>
+    </g>
+    <!--entity ML-???????????-->
+    <g
+       id="elem_ML-разработчик"
+       transform="translate(17.007059,20.999994)">
+      <circle
+         cx="1169.86"
+         cy="656.26001"
+         fill="#f1f1f1"
+         style="stroke:#181818;stroke-width:0.5"
+         id="ellipse14"
+         r="8" />
+      <path
+         d="m 1169.86,664.26 v 27 m -13,-19 h 26 m -13,19 -13,15 m 13,-15 13,15"
+         fill="none"
+         style="stroke:#181818;stroke-width:0.5"
+         id="path15" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="116"
+         x="1111.86"
+         y="721.29523"
+         id="text15">ML-разработчик</text>
+    </g>
+    <g
+       id="elem_RM"
+       transform="translate(-190.91883,2.8284271)">
+      <ellipse
+         cx="2306.7654"
+         cy="551.99908"
+         fill="#f1f1f1"
+         rx="92.9953"
+         ry="20.9991"
+         style="stroke:#181818;stroke-width:0.5"
+         id="ellipse15" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="148"
+         x="2232.7654"
+         y="555.2901"
+         id="text16">Управление правами</text>
+    </g>
+    <g
+       id="elem_R"
+       transform="translate(-190.91883,2.8284271)">
+      <ellipse
+         cx="2071.9648"
+         cy="552.00299"
+         fill="#f1f1f1"
+         rx="80.814796"
+         ry="18.563"
+         style="stroke:#181818;stroke-width:0.5"
+         id="ellipse16" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="120"
+         x="2011.9648"
+         y="555.29401"
+         id="text17">Назначение прав</text>
+    </g>
+    <g
+       id="elem_Auth">
+      <ellipse
+         cx="2071.959"
+         cy="292.00381"
+         fill="#f1f1f1"
+         rx="69.069"
+         ry="16.2138"
+         style="stroke:#181818;stroke-width:0.5"
+         id="ellipse17" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="91"
+         x="2024.145"
+         y="295.87299"
+         id="text18">Авторизация</text>
+    </g>
+    <g
+       id="elem_ServiceManagement">
+      <ellipse
+         cx="413.1821"
+         cy="98.996399"
+         fill="#f1f1f1"
+         rx="161.1821"
+         ry="34.636398"
+         style="stroke:#181818;stroke-width:0.5"
+         id="ellipse18" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="209"
+         x="308.6821"
+         y="94.043297"
+         id="text19">Назначение и создание задач</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="254"
+         x="288.1821"
+         y="110.5316"
+         id="text20">на ремонт и поддержку автомобиля</text>
+    </g>
+    <g
+       id="elem_CarManagement">
+      <ellipse
+         cx="800.7475"
+         cy="135.9975"
+         fill="#f1f1f1"
+         rx="163.3875"
+         ry="35.077499"
+         style="stroke:#181818;stroke-width:0.5"
+         id="ellipse20" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="298"
+         x="651.7475"
+         y="139.2885"
+         id="text21">Создание расписания машин и водителей</text>
+    </g>
+    <g
+       id="elem_Запись в БД данных о тестировании"
+       transform="translate(47.26829,-161.36416)">
+      <ellipse
+         cx="1169.859"
+         cy="514.00378"
+         fill="#f1f1f1"
+         rx="142.71899"
+         ry="30.9438"
+         style="stroke:#181818;stroke-width:0.5"
+         id="ellipse21" />
+    </g>
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="14px"
+       lengthAdjust="spacing"
+       textLength="170"
+       x="715.75067"
+       y="248.2912"
+       id="text28-6"
+       transform="matrix(0.98461246,0,0,0.97631672,426.22858,114.31279)">Запись в БД данных</text>
+    <g
+       id="elem_Reservation">
+      <ellipse
+         cx="1651.8561"
+         cy="462.99719"
+         fill="#f1f1f1"
+         rx="229.2861"
+         ry="48.257198"
+         style="stroke:#181818;stroke-width:0.5"
+         id="ellipse22" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="433"
+         x="1435.3561"
+         y="466.28821"
+         id="text23">Бронирование машин для проверки написанных алгоритмов</text>
+    </g>
+    <g
+       id="elem_Calendaring">
+      <ellipse
+         cx="1651.8558"
+         cy="347.99921"
+         fill="#f1f1f1"
+         rx="146.54581"
+         ry="31.7092"
+         style="stroke:#181818;stroke-width:0.5"
+         id="ellipse23" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="263"
+         x="1520.3558"
+         y="351.29019"
+         id="text24">Отметка занятых машин и водителей</text>
+    </g>
+    <g
+       id="elem_StartRiding">
+      <ellipse
+         cx="800.7547"
+         cy="425.00089"
+         fill="#f1f1f1"
+         rx="83.804703"
+         ry="19.1609"
+         style="stroke:#181818;stroke-width:0.5"
+         id="ellipse24" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="127"
+         x="737.2547"
+         y="428.29199"
+         id="text25">Отметить поездку</text>
+    </g>
+    <g
+       id="elem_ServiceWork">
+      <ellipse
+         cx="800.74957"
+         cy="336.99591"
+         fill="#f1f1f1"
+         rx="158.62959"
+         ry="34.1259"
+         style="stroke:#181818;stroke-width:0.5"
+         id="ellipse25" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="252"
+         x="674.74957"
+         y="332.04279"
+         id="text26">Изменение статуса текущей задачи,</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="223"
+         x="691.24957"
+         y="348.5311"
+         id="text27">написание комментариев в ней</text>
+    </g>
+    <g
+       id="elem_Tasks">
+      <ellipse
+         cx="800.75067"
+         cy="245.00011"
+         fill="#f1f1f1"
+         rx="102.9007"
+         ry="22.980101"
+         style="stroke:#181818;stroke-width:0.5"
+         id="ellipse27" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="170"
+         x="715.75067"
+         y="248.2912"
+         id="text28">Ведение католога задач</text>
+    </g>
+    <g
+       id="elem_SendingData">
+      <ellipse
+         cx="800.7475"
+         cy="513.9975"
+         fill="#f1f1f1"
+         rx="163.3875"
+         ry="35.077499"
+         style="stroke:#181818;stroke-width:0.5"
+         id="ellipse28" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="298"
+         x="651.7475"
+         y="517.28851"
+         id="text29">Отправка данных тестирования на сервер</text>
+    </g>
+    <!--entity AnalyticsService-->
+    <g
+       id="elem_AnalyticsService"
+       transform="matrix(1,0,0,1.0743329,-368.12656,-151.95073)">
+      <circle
+         cx="1169.86"
+         cy="767.26001"
+         fill="#f1f1f1"
+         style="stroke:#181818;stroke-width:0.5"
+         id="ellipse29"
+         r="8" />
+      <path
+         d="m 1169.86,775.26 v 27 m -13,-19 h 26 m -13,19 -13,15 m 13,-15 13,15"
+         fill="none"
+         style="stroke:#181818;stroke-width:0.5"
+         id="path29" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="129"
+         x="1105.36"
+         y="832.29523"
+         id="text30">Сервис аналитики</text>
+    </g>
+    <!--reverse link Admin to Support-->
+    <g
+       id="link_Admin_Support"
+       transform="matrix(0.50855501,0,0,1.0290797,1281.1788,-250.31541)">
+      <path
+         d="m 1246.83,924 c 97.69,0 264.9,0 350.35,0"
+         fill="none"
+         id="Admin-backto-Support"
+         style="stroke:#181818;stroke-width:1" />
+      <polygon
+         fill="none"
+         points="1246.92,917 1246.92,931 1226.92,924 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon30" />
+    </g>
+    <!--link R to Auth-->
+    <!--link ServiceManagement to Auth-->
+    <g
+       id="link_ServiceManagement_Auth">
+      <path
+         d="m 563.37,86 c 115.98,-7.96 280.82,-14.62 424.77,-3 411.57,33.22 517.37,45.19 917.01,149 44.3,11.51 93.41,30.04 126.6,43.46"
+         fill="none"
+         id="ServiceManagement-to-Auth"
+         style="stroke:#181818;stroke-width:1;stroke-dasharray:7, 7" />
+      <polygon
+         fill="#181818"
+         points="2029.0956,270.4881 2031.3046,275.6958 2026.0968,277.9048 2035.94,277.57 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon32" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13px"
+         lengthAdjust="spacing"
+         textLength="46"
+         x="1146.86"
+         y="83.568398"
+         id="text32">include</text>
+    </g>
+    <!--link CarManagement to Auth-->
+    <g
+       id="link_CarManagement_Auth">
+      <path
+         d="m 943.35,153.4 c 272.88,33.54 862.19,105.98 1060.75,130.38"
+         fill="none"
+         id="CarManagement-to-Auth"
+         style="stroke:#181818;stroke-width:1;stroke-dasharray:7, 7" />
+      <polygon
+         fill="#181818"
+         points="2000.4185,279.4165 2003.8977,283.8768 1999.4374,287.3561 2008.86,284.49 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon33" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13px"
+         lengthAdjust="spacing"
+         textLength="46"
+         x="1343.58"
+         y="199.56841"
+         id="text33">include</text>
+    </g>
+    <!--link Admin to RM-->
+    <!--link Support to R-->
+    <!--reverse link R to RM-->
+    <g
+       id="link_R_RM"
+       transform="translate(-190.91883,2.8284271)">
+      <path
+         d="m 2174.06,552 c 13.11,0 26.49,0 39.44,0"
+         fill="none"
+         id="R-backto-RM"
+         style="stroke:#181818;stroke-width:1" />
+      <polygon
+         fill="none"
+         points="2174.08,559 2154.08,552 2174.08,545 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon36" />
+    </g>
+    <!--link ML-??????????? to Reservation-->
+    <g
+       id="link_ML-разработчик_Reservation">
+      <path
+         d="m 1228.28,659.32 c 79.58,-36.97 224.59,-104.34 322.27,-149.72"
+         fill="none"
+         id="ML-разработчик-to-Reservation"
+         style="stroke:#181818;stroke-width:1" />
+      <polygon
+         fill="#181818"
+         points="1544.8928,507.3729 1550.2094,509.3052 1548.2772,514.6218 1554.74,507.19 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon37" />
+    </g>
+    <!--link Reservation to Calendaring-->
+    <g
+       id="link_Reservation_Calendaring">
+      <path
+         d="m 1651.86,414.48 c 0,-9.46 0,-18.92 0,-28.39"
+         fill="none"
+         id="Reservation-to-Calendaring"
+         style="stroke:#181818;stroke-width:1" />
+      <polygon
+         fill="#181818"
+         points="1647.86,390.2 1651.86,386.2 1655.86,390.2 1651.86,381.2 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon38" />
+    </g>
+    <!--link Reservation to Auth-->
+    <g
+       id="link_Reservation_Auth">
+      <path
+         d="m 1814.52,428.64 c 30.68,-8.72 62.09,-19.23 90.63,-31.64 53.61,-23.31 109.83,-62.54 141.09,-85.88"
+         fill="none"
+         id="Reservation-to-Auth"
+         style="stroke:#181818;stroke-width:1;stroke-dasharray:7, 7" />
+      <polygon
+         fill="#181818"
+         points="2040.07,310 2045.67,310.8 2044.87,316.4 2049.67,307.8 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon39" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13px"
+         lengthAdjust="spacing"
+         textLength="46"
+         x="1914.15"
+         y="367.56839"
+         id="text39">include</text>
+    </g>
+    <!--link Engineer to ServiceManagement-->
+    <g
+       id="link_Engineer_ServiceManagement">
+      <path
+         d="m 167.22,83.8 c 24.81,1.54 54.73,3.39 85,5.27"
+         fill="none"
+         id="Engineer-to-ServiceManagement"
+         style="stroke:#181818;stroke-width:1" />
+      <polygon
+         fill="#181818"
+         points="248.1365,84.8867 251.889,89.1197 247.656,92.8722 256.88,89.42 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon40" />
+    </g>
+    <!--link ServiceManagement to Tasks-->
+    <g
+       id="link_ServiceManagement_Tasks">
+      <path
+         d="m 458.68,132.64 c 38.76,27.51 97.55,65.07 154.68,85.36 26.18,9.29 55.51,15.39 83.02,19.39"
+         fill="none"
+         id="ServiceManagement-to-Tasks"
+         style="stroke:#181818;stroke-width:1" />
+      <polygon
+         fill="#181818"
+         points="692.8698,232.9975 696.2694,237.5189 691.748,240.9185 701.22,238.22 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon41" />
+    </g>
+    <!--link Technician to ServiceWork-->
+    <g
+       id="link_Technician_ServiceWork">
+      <path
+         d="m 131.1,303.27 c 80.71,4.07 338.21,17.06 509.09,25.68"
+         fill="none"
+         id="Technician-to-ServiceWork"
+         style="stroke:#181818;stroke-width:1" />
+      <polygon
+         fill="#181818"
+         points="636.1873,324.783 639.9766,328.9832 635.7764,332.7725 644.97,329.24 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon42" />
+    </g>
+    <!--link ServiceWork to Tasks-->
+    <g
+       id="link_ServiceWork_Tasks">
+      <path
+         d="m 800.75,302.5 c 0,-9.42 0,-18.85 0,-28.27"
+         fill="none"
+         id="ServiceWork-to-Tasks"
+         style="stroke:#181818;stroke-width:1" />
+      <polygon
+         fill="#181818"
+         points="796.75,278.36 800.75,274.36 804.75,278.36 800.75,269.36 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon43" />
+    </g>
+    <!--link Tasks to CarManagement-->
+    <g
+       id="link_Tasks_CarManagement">
+      <path
+         d="m 800.75,221.58 c 0,-14.76 0,-29.51 0,-44.27"
+         fill="none"
+         id="Tasks-to-CarManagement"
+         style="stroke:#181818;stroke-width:1" />
+      <polygon
+         fill="#181818"
+         points="796.75,181.44 800.75,177.44 804.75,181.44 800.75,172.44 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon44" />
+    </g>
+    <!--link FleetManager to CarManagement-->
+    <g
+       id="link_FleetManager_CarManagement">
+      <path
+         d="m 187.28,184.56 c 110.99,-8.8 312.31,-24.76 453.76,-35.98"
+         fill="none"
+         id="FleetManager-to-CarManagement"
+         style="stroke:#181818;stroke-width:1" />
+      <polygon
+         fill="#181818"
+         points="636.6083,144.8261 640.9049,148.5057 637.2253,152.8023 645.89,148.12 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon45" />
+    </g>
+    <!--link ???????? to StartRiding-->
+    <g
+       id="link_Водитель_StartRiding">
+      <path
+         d="m 137.61,451.72 c 101.02,-4.07 418.5,-16.89 574.24,-23.17"
+         fill="none"
+         id="Водитель-to-StartRiding"
+         style="stroke:#181818;stroke-width:1" />
+      <polygon
+         fill="#181818"
+         points="707.6273,424.6729 711.784,428.5098 707.9471,432.6665 716.78,428.31 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon46" />
+    </g>
+    <!--link Auto to SendingData-->
+    <g
+       id="link_Auto_SendingData">
+      <path
+         d="m 147.32,561.02 c 94.7,-6.82 331.62,-23.9 492.33,-35.48"
+         fill="none"
+         id="Auto-to-SendingData"
+         style="stroke:#181818;stroke-width:1" />
+      <polygon
+         fill="#181818"
+         points="635.0672,521.7833 639.3428,525.4873 635.6388,529.7628 644.33,525.13 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon47" />
+    </g>
+    <!--link Auto to StartRiding-->
+    <!--link StartRiding to Calendaring-->
+    <!--link CarManagement to Calendaring-->
+    <!--link SendingData to AnalyticsService-->
+    <!--link SendingData to ?????? ? ?? ?????? ? ????????????-->
+    <!--SRC=[ZLNTJXD15BxdAUQI9fO7s1WIWtebDq3YZJURTYaRofHi5urHabB4dqY2e8d6H1Jr0TRQXQNGzXNEl97dd9dTpcwt87yfCz-SyyrtldEcwQs78co9m6ziXABk1rujz5joRcuzSBSy0LzX1DSGmH3w-FSx_8BVuiNSdC0l1tv2h0u4Z17Jn-zOTU0S1X0vmcsBrPtjxLOG6kW7tB-61ECaQazr4HcfBenKXx7twbk-P2H_4dTVLgjPWDsC3EN3mnYYWobxJ2k160df92TC945435VgqCbozoWNvX_17pn0Mvnr9smLeX_0AKBxT3wBIYiztEjoRlo4MOVgFLmAk818g5TmXHVfSiY7JSyBbrtfDhp07F-8sn4UCqT8WdEE4PlBFv0DNtePNjEWYmruUyshRKY_vhlIule3GrwGY7WXpAtU41oIbFFoeoflJa4SYk706TUgHxKGh6A494atZgB5aMxpUUZNsgjUyDIlULdgr0EKQ1u_Zpb73mF4fXpPKaGbhr2q-PNbYZdnZNXHIcHKF66mATGK3lSIabgzHev76eErswXe7o9UB2oQ9U48NzQQEtLFxndskYHRdWnlm2wvmMquowFLUkkPh2vEhcRyQcrKCdviQ4Roaf7oc7qypFjP7HbnjGQb698CkrAz9Ji9zEiLdc8HHspL3fk1wpgc8lCfD21rAvNwhnOLnQMUI6NtsYYMI-rViGYSCWhjJvtDbiT8HsWeZcQnm8Gzkm7nzr97NdARdgoxWIyRHe1RN2ggh5yf8NjL4AmyUXwtCAlekxc2f9DYZBT23NE5ECFr2vw2kW0ymlOiVQbo_wk7RRHIhV6CEjIZDUQq0xMl3w-6RX2k-7M-xkHeQLib0hdbQNC1-mHx8jaXT96OVJ1KNMPTcETgdqnJ7A6c3wVxo-Bq1PDTwrcNYaOZ52U_sYVH10k32TGx4iVY1iaTGyyMcEWFc0L7vL0q6sBe2VePJYGsl1wtWasRqGaY-XDz1leLeW6EFH5P17IKDRUzsIuMA9rkt0vzgxNeDjFl4xc2PTupGnV_fXmbLV6-6xfsMwJlWUc2cnGkcMvyfi3RcRmX-Q05UUnLKHB7_6-wBkVXIIxx2JJPPlXz-i4svCeSxj1hdR6tX9i2L6VrYBsgSRdHaU4Axy0qqbPimYGR_4xnxNJiKLCuG_U1pwdFgUVHoCVmAMyj6Crm5xwl-AJ_0m00]-->
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 922.54664,158.91925 1503.6206,344.73253"
+       id="path49"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.17781;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:4.71123, 4.71123;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker60)"
+       d="m 913.57498,159.72595 284.95272,159.0743"
+       id="path51"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.16177;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:4.64709, 4.64709;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker58)"
+       d="M 961.63706,510.17087 1116.5072,380.83638"
+       id="path53"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.05042;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:4.2017, 4.2017;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker59)"
+       d="M 885.87716,423.8131 1081.7257,367.60409"
+       id="path54"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="13px"
+       lengthAdjust="spacing"
+       textLength="46"
+       x="1343.58"
+       y="199.56841"
+       id="text33-7"
+       transform="matrix(1.0368312,0,0,1.0809006,-407.45871,164.26182)">include</text>
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="13px"
+       lengthAdjust="spacing"
+       textLength="46"
+       x="1343.58"
+       y="199.56841"
+       id="text33-8"
+       transform="translate(-338.37288,230.9511)">include</text>
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="13px"
+       lengthAdjust="spacing"
+       textLength="46"
+       x="1343.58"
+       y="199.56841"
+       id="text33-8-1"
+       transform="translate(584.70619,257.18366)">include</text>
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="13px"
+       lengthAdjust="spacing"
+       textLength="46"
+       x="1343.58"
+       y="199.56841"
+       id="text33-9"
+       transform="translate(-207.1273,79.071379)">include</text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.1731;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:4.6924, 4.6924;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker61)"
+       d="m 1367.0849,354.35812 139.6686,-4.65852"
+       id="path55"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="13px"
+       lengthAdjust="spacing"
+       textLength="46"
+       x="1343.58"
+       y="199.56841"
+       id="text33-81"
+       transform="translate(67.220045,148.3792)">include</text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.00229px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ConcaveTriangle)"
+       d="m 801.03116,552.78456 -0.74471,99.45255"
+       id="path56"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.988329px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker64)"
+       d="m 1879.3646,657.45419 -0.368,-76.90315"
+       id="path62"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.988329px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker64-1)"
+       d="m 2112.964,659.89911 -0.368,-76.90315"
+       id="path62-0"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.16432;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:4.65728, 4.65728;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker64-1)"
+       d="M 1931.0737,538.80283 2057.7813,315.13857"
+       id="path65"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.993355px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 144.30785,542.35016 725.789,436.99264"
+       id="path66"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

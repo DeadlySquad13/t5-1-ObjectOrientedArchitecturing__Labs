@@ -23,6 +23,8 @@ frame Разработчики {
     :ML-разработчик:
 }
 
+:Сервис аналитики: as AnalyticsService
+
 frame ПУФ {
     (Управление правами) as (RM)
     (Назначение прав) as (R)
@@ -48,10 +50,11 @@ frame ПУФ {
 
     frame Автопарк {
         (Создание расписания машин и водителей) as (CarManagement)
-        (Управление автомобилем) as (Riding)
+        (Отметить поездку) as (StartRiding)
         (Назначение и создание задач\n на ремонт и поддержку автомобиля) as (ServiceManagement)
         (Изменение статуса текущей задачи,\n написание комментариев в ней) as (ServiceWork)
         (Ведение католога задач) as (Tasks)
+        (Отправка данных тестирования на сервер) as (SendingData)
 
         :Engineer: --> (ServiceManagement)
         (ServiceManagement) --> (Tasks)
@@ -60,13 +63,16 @@ frame ПУФ {
         (Tasks) -> (CarManagement)
 
         :FleetManager: --> (CarManagement)
-        :Водитель: --> (Riding)
-        (Riding) --- (Calendaring)
-        :Auto: --> (Отправка данных тестирования на сервер)
-        :Auto: --- (Riding)
+        :Водитель: --> (StartRiding)
+        :Auto: --> (SendingData)
+        :Auto: --- (StartRiding)
+        (StartRiding) --- (Calendaring)
         (CarManagement) --- (Calendaring)
+
+        (SendingData) -down-> :AnalyticsService:
     }
 
+    (SendingData) --> (Запись в данных в БД)
 }
 
 @enduml
