@@ -1,0 +1,120 @@
+@startuml
+
+component "Система ведения задач" as Tasks {
+    portin "Авторизация" as Tasks.auth
+    portout "Данные ПУФ" as Tasks.data
+
+    [Каталог задач] as TaskDB
+    [Раздел по управлению задачами] as TaskSection
+    [Сервис по ведению задач] as TaskService
+
+    () "CRUD" as taskWrite
+    note right of taskWrite
+        Create
+        Read
+        Update
+        Delete
+    end note
+    () "Авторизация" as taskAuth
+    () "Данные ПУФ" as tasksData
+    note bottom of Tasks.data
+        Данные платформы управления флота
+        (общие данные всей системы)
+    end note
+
+    [TaskService] --- [TaskSection]
+
+    Tasks.auth -( taskAuth
+    taskAuth -- [TaskService]
+
+    [TaskService] -right- tasksData
+    tasksData )- Tasks.data
+
+    [TaskService] --( taskWrite
+
+    taskWrite -- [TaskDB]
+}
+
+[Раздел расписания] as ScheduleSection
+() "Данные для соединения расписания с задачами" as ScheduleSection.taskLinks
+ScheduleSection -left-( ScheduleSection.taskLinks
+
+Tasks.data -left- ScheduleSection.taskLinks
+
+component "Система бронирования" as Reservations {
+    portin "Авторизация" as Reservations.auth
+    portout "Данные ПУФ" as Reservations.data
+
+    [Каталог броней] as ReservationDB
+    [Раздел по бронированию] as ReservationSection
+    [Сервис по бронированию] as ReservationService
+
+    () "CRUD" as reservationWrite
+    () "Авторизация" as reservationAuth
+    () "Данные ПУФ" as reservationsData
+
+    [ReservationService] --- [ReservationSection]
+
+    Reservations.auth -( reservationAuth
+    reservationAuth -- [ReservationService]
+
+    [ReservationService] -left- reservationsData
+    reservationsData )- Reservations.data
+
+    [ReservationService] --( reservationWrite
+
+    reservationWrite -- [ReservationDB]
+}
+
+() "Данные для составления расписания" as ScheduleSection.data
+ScheduleSection -right-( ScheduleSection.data
+
+ScheduleSection.data -- Reservations.data
+
+
+' component "Система авторизации" as A {
+'     ' Made it 'out' so that it's in the bottom.
+'     portout "Данные пользователя" as A.loginData
+'     portout "Результат авторизации" as A.result
+
+'     [Система шифрования\n и защиты данных]  as Defender
+'     () "Зашифрованные\n данные" as encryptedData
+'     [Авторизация] as AuthService
+
+'     () "Логин, пароль" as loginData
+'     () "Ошибка / токен" as result
+
+'     A.loginData --( loginData
+'     loginData -- [Defender]
+
+'     [Defender] -right- encryptedData
+'     encryptedData )- [AuthService]
+
+'     [AuthService] -- result
+'     result )-- A.result
+' }
+
+[Система авторизации] as A
+
+[Админ-панель\nдля управления\n правами] as AdminPanel
+() "Авторизация пользователя" as a
+
+[A] -- a
+
+a )-- Tasks.auth
+a )-- Reservations.auth
+a )-- [ScheduleSection]
+a )-- [AdminPanel]
+
+() "CRUD" as write
+
+' Tasks.data --( write
+' Reservations.data --( write
+[ScheduleSection] ---( write
+' [AdminPanel] --( write
+
+[База данных] as DB
+
+write -down- [DB]
+
+@enduml
