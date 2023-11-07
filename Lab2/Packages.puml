@@ -5,6 +5,7 @@
 rectangle {
     BackGroundColor white
     LineThickness 0.5
+    RoundCorner 0
 }
 </style>
 
@@ -21,8 +22,8 @@ rectangle "Система ведения задач" as Tasks {
     rectangle "Сервис по ведению задач" as TasksService
     rectangle "База данных с задачами" as TasksDB
 
-    TasksSection ..> TasksService
-    TasksService ..> TasksDB
+    TasksSection .[thickness=2].> TasksService
+    TasksService .[thickness=2].> TasksDB
 }
 
 rectangle "Система бронирования" as Reservations {
@@ -30,8 +31,8 @@ rectangle "Система бронирования" as Reservations {
     rectangle "Сервис по бронированию" as ReservationsService
     rectangle "База данных с бронями" as ReservationsDB
 
-    ReservationsSection ..> ReservationsService
-    ReservationsService ..> ReservationsDB
+    ReservationsSection .[thickness=2].> ReservationsService
+    ReservationsService .[thickness=2].> ReservationsDB
 }
 
 ScheduleSection .[thickness=2].> TasksService
