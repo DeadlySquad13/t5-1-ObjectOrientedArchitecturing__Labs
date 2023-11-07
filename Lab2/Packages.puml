@@ -1,0 +1,50 @@
+@startuml
+'   Used rectangle because package doesn't quite fix style requirements (it
+' misses empty ear on the top left, above the element).
+<style>
+rectangle {
+    BackGroundColor white
+    LineThickness 0.5
+}
+</style>
+
+rectangle "База данных" as Database
+
+rectangle "Система авторизации" as A
+
+rectangle "Админ-панель\n для управления правами" as AdminPanel
+
+rectangle "Раздел расписания" as ScheduleSection
+
+rectangle "Система ведения задач" as Tasks {
+    rectangle "Пользовательский интерфейс" as TasksSection
+    rectangle "Сервис по ведению задач" as TasksService
+    rectangle "База данных с задачами" as TasksDB
+
+    TasksSection ..> TasksService
+    TasksService ..> TasksDB
+}
+
+rectangle "Система бронирования" as Reservations {
+    rectangle "Пользовательский интерфейс" as ReservationsSection
+    rectangle "Сервис по бронированию" as ReservationsService
+    rectangle "База данных с бронями" as ReservationsDB
+
+    ReservationsSection ..> ReservationsService
+    ReservationsService ..> ReservationsDB
+}
+
+ScheduleSection .[thickness=2].> TasksService
+ScheduleSection .[thickness=2].> ReservationsService
+
+A ..> Database
+AdminPanel ..> Database
+ScheduleSection ..> Database
+TasksService ..> Database
+ReservationsService ..> Database
+
+AdminPanel ..> A
+ScheduleSection ..> A
+TasksService ..> A
+ReservationsService ..> A
+@enduml
