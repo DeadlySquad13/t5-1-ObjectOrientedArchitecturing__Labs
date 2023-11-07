@@ -1,0 +1,46 @@
+@startuml
+<style>
+node {
+    BackGroundColor white
+    LineThickness 0.5
+    RoundCorner 0
+}
+</style>
+
+
+node "Основной сервер компании" as MainServer <<device>> {
+    artifact "Система авторизации"
+    database "База данных" as Database
+}
+
+node "Сервер базы данных" as DBServer <<device>> {
+    database "База данных с задачами" as TasksDB
+    database "База данных с бронями" as ReservationsDB
+}
+
+node "Backend-сервер" as BackendServer <<device>> {
+    node Kong <<executionEnvironment>> {
+        artifact "Сервис по ведению задач" as TasksService
+        artifact "Сервис по бронированию" as ReservationsService
+    }
+}
+
+node "Веб-сервер" as WebServer <<device>> {
+    node Nginx <<executionEnvironment>> {
+        artifact "Админ-панель\n для управления правами" as AdminPanel
+
+        artifact "Сайт с расписанием" as ScheduleSection
+
+        artifact "Сайт с задачами" as TasksSection
+
+        artifact "Сайт с бронями" as ReservationsSection
+    }
+}
+
+WebServer -left- BackendServer : https/internet
+
+BackendServer -up- DBServer : https/internet
+BackendServer -up- MainServer : https/internet
+
+WebServer --- MainServer : https/internet
+@enduml
