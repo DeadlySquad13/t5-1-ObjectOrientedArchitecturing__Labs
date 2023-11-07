@@ -1,8 +1,15 @@
 @startuml
 
+
+[База данных] as DB
+() "CRUD" as write
+
+[DB] -- write
+
 component "Система ведения задач" as Tasks {
+    portin "Данные ПУФ" as Tasks.inData
     portin "Авторизация" as Tasks.auth
-    portout "Данные ПУФ" as Tasks.data
+    portout "Данные о задачах" as Tasks.data
 
     [Каталог задач] as TaskDB
     [Раздел по управлению задачами] as TaskSection
@@ -16,16 +23,20 @@ component "Система ведения задач" as Tasks {
         Delete
     end note
     () "Авторизация" as taskAuth
-    () "Данные ПУФ" as tasksData
-    note bottom of Tasks.data
-        Данные платформы управления флота
-        (общие данные всей системы)
+    () "Данные о задачах" as tasksData
+    () "Данные ПУФ" as tasksInData
+    note top of Tasks.inData
+        Общие данные платформы управления флота
+        (беспилотных автомобилей).
     end note
 
     [TaskService] --- [TaskSection]
 
-    Tasks.auth -( taskAuth
-    taskAuth -- [TaskService]
+    Tasks.auth -- taskAuth
+    taskAuth )-- [TaskService]
+
+    Tasks.inData -- tasksInData
+    tasksInData )-- [TaskService]
 
     [TaskService] -right- tasksData
     tasksData )- Tasks.data
@@ -34,16 +45,18 @@ component "Система ведения задач" as Tasks {
 
     taskWrite -- [TaskDB]
 }
+write )-- Tasks.inData
 
 [Раздел расписания] as ScheduleSection
-() "Данные для соединения расписания с задачами" as ScheduleSection.taskLinks
-ScheduleSection -left-( ScheduleSection.taskLinks
+() "Данные для\n соединения расписания с задачами" as ScheduleSection.taskLinks
+ScheduleSection --( ScheduleSection.taskLinks
 
 Tasks.data -left- ScheduleSection.taskLinks
 
 component "Система бронирования" as Reservations {
     portin "Авторизация" as Reservations.auth
-    portout "Данные ПУФ" as Reservations.data
+    portin "Данные ПУФ" as Reservations.inData
+    portout "Данные бронирований" as Reservations.data
 
     [Каталог броней] as ReservationDB
     [Раздел по бронированию] as ReservationSection
@@ -51,12 +64,16 @@ component "Система бронирования" as Reservations {
 
     () "CRUD" as reservationWrite
     () "Авторизация" as reservationAuth
-    () "Данные ПУФ" as reservationsData
+    () "Данные ПУФ" as reservationsInData
+    () "Данные бронирований" as reservationsData
 
     [ReservationService] --- [ReservationSection]
 
-    Reservations.auth -( reservationAuth
-    reservationAuth -- [ReservationService]
+    Reservations.auth -- reservationAuth
+    reservationAuth )-- [ReservationService]
+
+    Reservations.inData -- reservationsInData
+    reservationsInData )-- [ReservationService]
 
     [ReservationService] -left- reservationsData
     reservationsData )- Reservations.data
@@ -65,12 +82,12 @@ component "Система бронирования" as Reservations {
 
     reservationWrite -- [ReservationDB]
 }
+write )-- Reservations.inData
 
-() "Данные для составления расписания" as ScheduleSection.data
-ScheduleSection -right-( ScheduleSection.data
+() "Данные для\n составления расписания" as ScheduleSection.data
+ScheduleSection --( ScheduleSection.data
 
-ScheduleSection.data -- Reservations.data
-
+ScheduleSection.data -down- Reservations.data
 
 ' component "Система авторизации" as A {
 '     ' Made it 'out' so that it's in the bottom.
@@ -106,15 +123,9 @@ a )-- Reservations.auth
 a )-- [ScheduleSection]
 a )-- [AdminPanel]
 
-() "CRUD" as write
-
 ' Tasks.data --( write
 ' Reservations.data --( write
-[ScheduleSection] ---( write
+write )--- [ScheduleSection]
 ' [AdminPanel] --( write
-
-[База данных] as DB
-
-write -down- [DB]
 
 @enduml
